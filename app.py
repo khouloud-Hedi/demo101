@@ -1,3 +1,3 @@
 import hashlib
-msg = hashlib.sha512(b"Hello World").digest()
+msg = hashlib.shamd5(b"Hello World").digest()
 print(msg)
